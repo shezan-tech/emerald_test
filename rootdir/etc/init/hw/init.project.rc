@@ -209,8 +209,8 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
     group nfc
     disabled
 
-on boot && property:ro.boot.product.hardware.sku=tanzanite_e_eea
+on boot && property:ro.boot.product.hardware.sku=emerald_e_eea
     enable vendor.nfc_hal_service
 
-on boot && property:ro.boot.product.hardware.sku=tanzanite_n_gl
+on boot && property:ro.boot.product.hardware.sku=emerald_n_gl
     enable vendor.nfc_hal_service
