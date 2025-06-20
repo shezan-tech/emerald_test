@@ -316,7 +316,7 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayEmerald \
     TelephonyOverlayEmerald \
     TetheringResOverlayEmerald \
-    WifiResOverlayEmrald
+    WifiResOverlayEmerald
 
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
