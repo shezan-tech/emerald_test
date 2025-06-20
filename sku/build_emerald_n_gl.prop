@@ -1,6 +1,4 @@
-
-ro.product.odm.brand=Poco
+ro.product.odm.brand=Xiaomi
 ro.product.odm.device=emerald
-ro.product.odm.model=24117RN76O
-ro.product.odm.name=tanzanite_n_global
-ro.product.odm.marketname=Redmi Note 13 pro
+ro.product.odm.name=emerald
+ro.product.odm.model=Poco M6 Pro
