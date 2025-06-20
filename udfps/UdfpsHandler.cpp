@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "UdfpsHandler.tanzanite"
+#define LOG_TAG "UdfpsHandler.emerald"
 
 #include <aidl/android/hardware/biometrics/fingerprint/BnFingerprint.h>
 #include <android-base/logging.h>
@@ -84,7 +84,7 @@ static disp_event_resp* parseDispEvent(int fd) {
 
 }  // anonymous namespace
 
-class XiaomiTanzaniteUdfpsHandler : public UdfpsHandler {
+class XiaomiEmeraldUdfpsHandler : public UdfpsHandler {
   public:
     void init(fingerprint_device_t* device) {
         mDevice = device;
@@ -212,7 +212,7 @@ class XiaomiTanzaniteUdfpsHandler : public UdfpsHandler {
 };
 
 static UdfpsHandler* create() {
-    return new XiaomiTanzaniteUdfpsHandler();
+    return new XiaomiEmeraldUdfpsHandler();
 }
 
 static void destroy(UdfpsHandler* handler) {
