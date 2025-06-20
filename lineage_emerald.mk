@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from tanzanite device
-$(call inherit-product, device/xiaomi/tanzanite/device.mk)
+# Inherit from emerald device
+$(call inherit-product, device/xiaomi/emerald/device.mk)
 
 PRODUCT_DEVICE := emerald
 PRODUCT_NAME := lineage_emerald
