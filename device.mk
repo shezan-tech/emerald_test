@@ -180,7 +180,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp
 
-$(foreach sku, tanzanite_e_eea tanzanite_n_gl, \
+$(foreach sku, emerald_e_eea emerald_n_gl, \
     $(eval PRODUCT_COPY_FILES += \
         frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(sku)/android.hardware.nfc.ese.xml \
         frameworks/native/data/etc/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(sku)/android.hardware.nfc.hce.xml \
@@ -324,12 +324,12 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayTanzanite \
-    SettingsResOverlayTanzanite \
-    SystemUIOverlayTanzanite \
-    TelephonyOverlayTanzanite \
-    TetheringResOverlayTanzanite \
-    WifiResOverlayTanzanite
+    FrameworksResOverlayEmerald \
+    SettingsResOverlayEmerald \
+    SystemUIOverlayEmerald \
+    TelephonyOverlayEmerald \
+    TetheringResOverlayEmerald \
+    WifiResOverlayEmrald
 
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
@@ -355,4 +355,4 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/tanzanite/tanzanite-vendor.mk)
+$(call inherit-product, vendor/xiaomi/emerald/emerald-vendor.mk)
