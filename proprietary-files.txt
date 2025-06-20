@@ -1252,9 +1252,10 @@ vendor/lib64/hw/consumerir.common.so:vendor/lib64/hw/consumerir.mt6789.so;FIX_SO
 
 # Display configs
 vendor/etc/AbnormalDisplayLog_dynamic.xml
-vendor/etc/cust_color_dsi_o7_38_0c_0a_dsc_vdo.xml
-vendor/etc/dsi_o7_38_0c_0a_dsc_vdo_mi.xml
-vendor/etc/screen_light.xml
+vendor/etc/cust_color_dsi_n6_41_02_0b_dsc_vdo.xml
+vendor/etc/cust_color_dsi_n6_42_0d_0a_dsc_vdo.xml
+vendor/etc/dsi_n6_41_02_0b_dsc_vdo_mi.xml
+vendor/etc/dsi_n6_42_0d_0a_dsc_vdo_mi.xml
 
 # DRM (Digital Rights Management)
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
@@ -1301,8 +1302,8 @@ vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 vendor/firmware/aw87xxx_acf.bin
 vendor/firmware/BT_FW.cfg
 vendor/firmware/fm_cust.cfg
-vendor/firmware/focaltech_ts_fw_samsung_ft3519t.bin
-vendor/firmware/focaltech_ts_mp.ini
+vendor/firmware/focaltech_mp_fw_huaxin.ini
+vendor/firmware/focaltech_ts_fw_huaxing.bi
 vendor/firmware/lib3a.ccu
 vendor/firmware/mt6627_fm_v1_coeff.bin
 vendor/firmware/mt6627_fm_v1_patch.bin
@@ -1319,7 +1320,6 @@ vendor/firmware/mt6632_fm_v1_patch.bin
 vendor/firmware/mt6635_fm_v1_coeff.bin
 vendor/firmware/mt6635_fm_v1_patch.bin
 vendor/firmware/remoteproc_scp
-vendor/firmware/sipa.bin
 vendor/firmware/soc2_2_ram_bt_1d_1_hdr.bin
 vendor/firmware/soc2_2_ram_bt_1e_1_hdr.bin
 vendor/firmware/soc2_2_ram_mcu_1d_1_hdr.bin
