@@ -16,20 +16,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Allow userspace reboots
 $(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
 
-# AB OTA Configuration
-AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS := \
-    boot \
-    vendor_boot \
-    system \
-    system_ext \
-    vendor \
-    vendor_dlkm \
-    product \
-    vbmeta \
-    vbmeta_system \
-    vbmeta_vendor
-
 PRODUCT_PACKAGES += \
     create_pl_dev \
     create_pl_dev.recovery
@@ -307,6 +293,7 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.sensor_2_0.rc \
     init.recovery.usb.rc \
+    init.recovery.mt6789.rc \
     fstab.mt6789 \
     fstab.mt6789.vendor_ramdisk \
     ueventd.mt6789.rc
