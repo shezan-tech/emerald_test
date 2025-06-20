@@ -5,7 +5,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/emerald
-KERNEL_PATH := device/xiaomi/emerald
+KERNEL_PATH := kernel/xiaomi/emerald
 
 # Architecture
 TARGET_ARCH := arm64
